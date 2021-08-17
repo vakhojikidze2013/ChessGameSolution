@@ -1,0 +1,104 @@
+body{
+    background-color: #FAF0CA;
+    box-shadow: 0px 0px 200px #B0E0E6;
+}
+
+img{
+    box-shadow: 0px 0px 30px #EE964B;
+    width: 300px;
+    height: 375px;
+    transition: transform 0.5s;
+    border-radius: 10%;
+}
+
+img:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 0px 30px #222120;
+}
+
+p{
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+p:hover{
+    transform: scale(1.3);
+    box-shadow: 0px 0px 30px #613407;
+}
+
+.mainText{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.person{
+    height: 600px;
+    border: 1px solid;
+    border-color: rgb(23, 22, 26);
+    box-shadow: 0px 0px 50px #000000;
+    border-radius: 5%;
+}
+.imagePosition{
+    margin-top: 14px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 375px;
+}
+
+.name{
+    font-size: 20px;
+}
+
+.country{
+    font-size: 18px;
+}
+
+.born{
+    font-size: 18px;
+}
+
+.age{
+    font-size: 18px;
+}
+
+.twoImages{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn{
+    position: relative;
+    left: 47.5%;
+    width: 100px;
+    height: 25px;
+    background-color: #F95738;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    background-color: #B0E0E6;
+    transform: scale(1.1);
+}
+
+.vs{
+    font-size: 25px;
+}
+
+#headerr{
+    height: 120px;
+    background-color: #0D3B66;
+}
+
+#games-list-text{
+    color: blueviolet;
+    font-size: 30px;
+}
+
+#games-list {
+    text-align: center;
+    margin-top: 10px;
+}

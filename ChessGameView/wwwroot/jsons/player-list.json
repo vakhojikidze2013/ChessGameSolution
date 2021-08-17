@@ -1,0 +1,34 @@
+{
+    "Chess": {
+        "PlayerInfo": {
+          "MagnusCarlsen": {
+            "Name": "Magnus Carlsen",
+            "Country": "Norway",
+            "Born": "30 November 1999",
+            "Age": 30,
+            "PhotoLink": "content/images/PlayersPhoto/MagnusCarlsenPhoto.jpg"
+          },
+          "HikaruNakamura": {
+            "Name": "Hikaru Nakamura",
+            "Country": "United States",
+            "Born": "9 December 1987",
+            "Age": 33,
+            "PhotoLink": "content/images/PlayersPhoto/HikaruNakamuraPhoto.jpg"
+          },
+          "NinoBatsiashvili": {
+            "Name": "Nino Batsiashvili",
+            "Country": "Georgia",
+            "Born": "1 January 1987",
+            "Age": 34,
+            "PhotoLink": "content/images/PlayersPhoto/NinoBatsiashvili.jpg"
+          },
+          "EricHansen": {
+            "Name": "Eric Hansen",
+            "Country": "Canada",
+            "Born": "24 May 1992",
+            "Age": 29,
+            "PhotoLink": "content/images/PlayersPhoto/EricHansen.jpg"
+          }
+        }
+    }
+}

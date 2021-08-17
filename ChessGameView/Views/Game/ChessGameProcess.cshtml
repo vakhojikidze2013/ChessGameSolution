@@ -1,0 +1,65 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/content/styles/ChessBoardStyle.css">
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/content/scripts/signalr/dist/browser/signalr.min.js"></script>
+    <title>Chess Game</title>
+    <meta id="view" name="viewport" content="width=device-width, initial-scale=0.1">
+</head>
+
+<body>
+
+    <h1 id="gameTitle">Chess: </h1>
+    <p class="textSize"></p>
+    <p><strong>Thinks how to walk:</strong><img id="walkqueue" class="pictureSize" src="" alt="WaklQueue"></p>
+    <div>
+        <ul class="players-information-li">
+            <li><img class="player1" id="playerOne"></li>
+            <li><p id="timer-first">0:00</p></li>
+            <li><img class="player2" id="playerTwo"></li>
+            <li><p id="timer-second">0:00</p></li>
+        </ul>
+        <table id="board">
+        </table>
+    </div>
+
+    <div id="buttonContainer">
+        <button id="restart"><strong>Restart</strong></button>
+    </div>
+
+    <div id="chat-room">
+        <div id="inputForm">
+            <input type="text" id="message" />
+            <input type="button" id="sendBtn" value="Send" />
+        </div>
+        <div id="chatroom"></div>
+    </div>
+
+    <script src="/content/scripts/Constants.js"></script>
+    <script src="/content/scripts/Methods.js"></script>
+    <script src="/content/scripts/Model/BoardChess/ChessBoard.js"></script>
+    <script src="/content/scripts/View/ViewOnBoard.js"></script>
+    <script src="/content/scripts/View/ViewMethods.js"></script>
+    @*<script src="/content/scripts/Model/PiecesChess/ChessPiece.js"></script>
+        <script src="/content/scripts/Model/PiecesChess/PiecePawn.js"></script>
+        <script src="/content/scripts/Model/PiecesChess/PieceKnight.js"></script>
+        <script src="/content/scripts/Model/PiecesChess/PieceRook.js"></script>
+        <script src="/content/scripts/Model/PiecesChess/PieceKing.js"></script>
+        <script src="/content/scripts/Model/PiecesChess/PieceBishop.js"></script>
+        <script src="/content/scripts/Model/PiecesChess/PieceQueen.js"></script>*@
+    <script src="/content/scripts/GetJsonFromServerUse.js"></script>
+    <script src="/content/scripts/ChessBoardGameScript.js"></script>
+    <script src="/content/scripts/GameController.js"></script>
+    <script src="/content/scripts/ChatRoom.js"></script>
+</body>
+
+</html>

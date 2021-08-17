@@ -1,0 +1,67 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/content/styles/Style.css">
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Chess Players</title>
+</head>
+
+<body>
+    <div id="headerr" class="mainText">
+        <h1><p>Chess Players</p></h1>
+    </div>
+    <div id="magnusCarlsen" class="person">
+        <a class="imagePosition" href="@Url.Action("ChessGamesInfo", "Game")?game=MagnusCarlsen">
+            <img class="imagePosition">
+        </a>
+        <p class="name">Name: </p>
+        <p class="country">Country: </p>
+        <p class="born">Born: </p>
+        <p class="age">Age: </p>
+    </div>
+
+    <div id="hikaruNakamura" class="person">
+        <a class="imagePosition" href="@Url.Action("ChessGamesInfo", "Game")?game=HikaruNakamura">
+            <img class="imagePosition">
+        </a>
+        <p class="name">Name: </p>
+        <p class="country">Country: </p>
+        <p class="born">Born: </p>
+        <p class="age">Age: </p>
+    </div>
+
+    <div id="ninoBatsiashvili" class="person">
+        <a class="imagePosition" href="@Url.Action("ChessGamesInfo", "Game")?game=NinoBatsiashvili">
+            <img class="imagePosition">
+        </a>
+        <p class="name">Name: </p>
+        <p class="country">Country: </p>
+        <p class="born">Born: </p>
+        <p class="age">Age: </p>
+    </div>
+
+    <div id="ericHansen" class="person">
+        <a class="imagePosition" href="@Url.Action("ChessGamesInfo", "Game")?game=EricHansen">
+            <img class="imagePosition">
+        </a>
+        <p class="name">Name: </p>
+        <p class="country">Country: </p>
+        <p class="born">Born: </p>
+        <p class="age">Age: </p>
+    </div>
+    <script src="~/content/scripts/Constants.js"></script>
+    <script src="/content/scripts/GetJsonFromServerUse.js"></script>
+    <script src="/content/scripts/View/ViewMethods.js"></script>
+    <script src="/content/scripts/Mainscript.js"></script>
+</body>
+
+</html>

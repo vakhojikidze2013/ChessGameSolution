@@ -1,0 +1,109 @@
+{
+    "ChessGames": {
+        "MagnusCarlsen": {
+          "FirstGame": {
+            "Players": "Magnus Carlsen",
+            "Photos": [
+              "../content/images/PlayersPhoto/MagnusCarlsenPhoto.jpg",
+              "../content/images/PlayersPhoto/HikaruNakamuraPhoto.jpg"
+            ],
+            "Game": "Live Chess.com",
+            "GameID": "Speed Chess Championship 2017",
+            "GameStartTime": "3 Jan 2018",
+            "Link": "?game=MagnusCarlsen&id=FirstGame",
+            "GameIndent": "MagnusCarlsenFirstGame"
+          },
+          "SecondGame": {
+            "Players": "Magnus Carlsen",
+            "Photos": [
+              "../content/images/PlayersPhoto/MagnusCarlsenPhoto.jpg",
+              "../content/images/PlayersPhoto/ViswanathanAnand.jpg"
+            ],
+            "Game": "Chessgames.com",
+            "GameID": "De Leon XVIII (2005) (rapid), Leon ESP, rd 1",
+            "GameStartTime": "11 Jun 2005",
+            "Link": "?game=MagnusCarlsen&id=SecondGame",
+            "GameIndent": "MagnusCarlsenSecondGame"
+          }
+        },
+        "HikaruNakamura": {
+          "FirstGame": {
+            "Players": "Hikaru Nakamura",
+            "Photos": [
+              "../content/images/PlayersPhoto/HikaruNakamuraPhoto.jpg",
+              "../content/images/PlayersPhoto/MagnusCarlsenPhoto.jpg"
+            ],
+            "Game": "Live Chess.com",
+            "GameID": "Speed Chess Championship 2017",
+            "GameStartTime": "3 Jan 2018",
+            "Link": "?game=HikaruNakamura&id=FirstGame",
+            "GameIndent": "HikaruNakamuraFirstGame"
+
+          },
+          "SecondGame": {
+            "Players": "Hikaru Nakamura",
+            "Photos": [
+              "../content/images/PlayersPhoto/HikaruNakamuraPhoto.jpg",
+              "../content/images/PlayersPhoto/EricHansen.jpg"
+            ],
+            "Game": "Live Chess.com",
+            "GameID": "Pro Chess League (2018) (rapid), chess.com INT, rd 4",
+            "GameStartTime": "3 Feb 2018",
+            "Link": "?game=HikaruNakamura&id=SecondGame",
+            "GameIndent": "HikaruNakamuraSecondGame"
+          }
+        },
+        "NinoBatsiashvili": {
+          "FirstGame": {
+            "Players": "Nino Batsiashvili",
+            "Photos": [
+              "../content/images/PlayersPhoto/NinoBatsiashvili.jpg",
+              "../content/images/PlayersPhoto/MagnusCarlsenPhoto.jpg"
+            ],
+            "Game": "Chessgames.com",
+            "GameID": "Qatar Masters (2015), Doha QAT",
+            "GameStartTime": "20 Dec 2015",
+            "Link": "?game=NinoBatsiashvili&id=FirstGame",
+            "GameIndent": "NinoBatsiashviliFirstGame"
+          },
+          "SecondGame": {
+            "Players": "Nino Batsiashvili",
+            "Photos": [
+              "../content/images/PlayersPhoto/NinoBatsiashvili.jpg",
+              "../content/images/PlayersPhoto/LaraSchulze.jpg"
+            ],
+            "Game": "Chessgames.com",
+            "GameID": "FIDE Online Olympiad (2020) (rapid), Chess.com, rd 4",
+            "GameStartTime": "22 Aug 2020",
+            "Link": "?game=NinoBatsiashvili&id=SecondGame",
+            "GameIndent": "NinoBatsiashviliSecondGame"
+          }
+        },
+        "EricHansen": {
+          "FirstGame": {
+            "Players": "Eric Hansen",
+            "Photos": [
+              "../content/images/PlayersPhoto/EricHansen.jpg",
+              "../content/images/PlayersPhoto/HikaruNakamuraPhoto.jpg"
+            ],
+            "Game": "Live Chess.com",
+            "GameID": "Pro Chess League (2018) (rapid), chess.com INT, rd 4",
+            "GameStartTime": "3 Feb 2018",
+            "Link": "?game=EricHansen&id=FirstGame",
+            "GameIndent": "EricHansenFirstGame"
+          },
+          "SecondGame": {
+            "Players": "Eric Hansen",
+            "Photos": [
+              "../content/images/PlayersPhoto/EricHansen.jpg",
+              "../content/images/PlayersPhoto/AlexanderShabalov.jpg"
+            ],
+            "Game": "Chess.com",
+            "GameID": "PRO League Group Stage: Round 7",
+            "GameStartTime": "21 Feb 2019",
+            "Link": "?game=EricHansen&id=SecondGame",
+            "GameIndent": "EricHansenSecondGame"
+          }
+        }
+    }
+}

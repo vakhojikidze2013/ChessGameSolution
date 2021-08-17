@@ -1,0 +1,237 @@
+.bluePosition{
+    background-color: rgb(2, 21, 73);
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 16px #0000CD;
+    transition: all 0.2s;
+
+}
+
+.yellowPosition {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 30px #000000;
+    transition: all 0.2s;
+}
+
+.redPosition {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 30px #000000;
+    transition: all 0.2s;
+}
+
+.rooukColor {
+    background-color: rgba(0, 212, 255, 1);
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 30px #000000;
+    transition: all 0.2s;
+}
+
+td:hover {
+    background-color: rgba(207, 207, 207, 0.24);
+}
+
+.whitePosition {
+    background-color: rgb(221, 201, 201);
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 16px #B0E0E6;
+    transition: all 0.2s;
+}
+
+.cordSt{
+    color: #00FFFF;
+    border-collapse: collapse;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+}
+
+.pictureSize{
+    width: 100px;
+    height: 30px;
+}
+
+.textSize{
+    font-size: 24px;
+    text-shadow: crimson;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    margin-top: -48px;
+    position: absolute;
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+img:hover {
+    transform: scale(1.21);
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 54, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    background: -webkit-linear-gradient(#8B008B, rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p{
+    text-align: center;
+    font-size: larger;
+}
+
+td{
+    transition: all 0.2s;
+}
+
+button {
+    width: 90px;
+    height: 25px;
+    margin-left: 30px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+#walkqueue{
+    margin: -3px 10px 0px 10px;
+}
+
+#buttonContainer{
+    position: relative;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 1070px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#mainInput {
+    margin-left: 170px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    background-color: #afbcc9;
+}
+
+.divMain {
+    text-align: center;
+}
+
+#boardRotate{
+    margin-top: 10px;
+    position: relative;
+    left: 44.5%;
+    width: 140px;
+    height: 30px;
+    background-color: #384bf9;
+}
+
+#undo{
+    background-color: #000080;
+    color: #8B008B;
+    transition: all 0.5s;
+}
+
+#continue{
+    background-color:rgb(0, 0, 0);
+    color: #8B008B;
+    transition: all 0.5s;
+}
+
+#next{
+    background-color: #1E90FF;
+    color: #8B008B;
+    transition: all 0.5s;
+}
+
+#restart{
+    background-color: #07073f;
+    color: #8B008B;
+    transition: all 0.5s;
+}
+
+#undo:hover, #continue:hover, #next:hover, #restart:hover{
+    transform: scale(1.1);
+    background-color:rgb(196, 196, 197);
+    color:rgb(0, 0, 0);
+}
+
+#playerOne, #playerTwo{
+    width: 125px;
+    height: 125px;
+    box-shadow: 0px 0px 50px #000000;
+    border-radius: 50%;
+}
+
+#playerOne{
+    margin-top: 710px;
+    margin-left: 50px;
+    
+}
+
+#playerTwo{
+    margin-top: 6px;
+    margin-left: 50px;
+}
+
+#chat-room {
+    width: 550px;
+    height: 125px;
+    box-shadow: 0px 0px 30px #FFFFFF;
+}
+
+
+.player1 {
+    position: relative;
+}
+
+.player2 {
+    position: relative;
+    top: -814px;
+}
+
+.players-information-li {
+    height: 0px;
+    width: 300px;
+}
+
+#chat-room {
+    margin-left: 80px;
+    margin-top: 40px
+}
+
+ul {
+    list-style-type: none;
+}
+
+#timer-first {
+    color: white;
+    margin-left: 160px;
+    margin-top: -83px;
+    font-size: 30px
+}
+
+#timer-second {
+    color: white;
+    margin-left: 160px;
+    margin-top: -896px;
+    font-size: 30px;
+}
